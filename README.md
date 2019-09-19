@@ -120,10 +120,12 @@ What is Lightning?|Lightning ≈ Bitcoin|Revisting tx malleability|[SF Bitcoin D
 |Considerations|Broadcasting channel updates||[What is the status of the Lightning Network?](https://www.reddit.com/r/Bitcoin/comments/714x2k/what_is_the_status_of_the_lightning_network/dn8v3dg/) |
 |Implementations|LND||[Lightning Network Daemon](https://github.com/lightningnetwork/lnd) |
 |Implementations|ptarmigan||[Ptarmigan](https://github.com/nayutaco/ptarmigan) |
-|Implementations|electrum||[Electrum Implementation in Python](https://github.com/spesmilo/electrum/compare/lightning) |
-|Implementations|rust-lightning||[Rust-Lightning](https://github.com/rust-bitcoin/rust-lightning) |
+|Implementations|electrum||[Electrum Implementation in Python](https://github.com/spesmilo/electrum), see `electrum/ln*.py` |
+|Implementations|rust-lightning|Incomplete implementation|[Rust-Lightning](https://github.com/rust-bitcoin/rust-lightning) |
 |Implementations|c-lightning||[c-lightning — a Lightning Network implementation in C](https://github.com/ElementsProject/lightning) |
 |Implementations|Eclair||[Eclair - A scala implementation of the Lightning Network](https://github.com/ACINQ/eclair) |
+|Implementations|DotNetLightning|Incomplete implementation|[Lightning network daemon with F#](https://github.com/joemphilips/DotNetLightning) |
+|Implementations|geelightning|Incomplete implementation|[geelightning](https://gitlab.com/nblockchain/geelightning) in Rust |
 |Setting up a node||| [Bitcoin Lightning Network #1: Can I compile and run a node?](https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15), [Beginner’s Guide to ️Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md), [My Lightning Node setup with c-lightning](https://medium.com/coinmonks/my-lightning-node-setup-with-c-lightning-45bbb9993c0), [Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD](https://github.com/rootzoll/raspiblitz) |
 
 
