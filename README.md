@@ -1,4 +1,6 @@
-# What is this?
+# Lightning Network Curriculum
+
+## What Is This?
 
 While planning the [Chaincode Residency](https://residency.chaincode.com/), we put considerable effort into finding the best resources and creating a curriculum around Lightning protocol development.
 
@@ -7,10 +9,10 @@ Lightning is still a nascent technology, and so we expect maintenance of this do
 There are three portions to this curriculum:
 
 1. [Study Groups](https://github.com/chaincodelabs/study-groups#lightning) designed to provide bite-sized grouped subjects that you can either complete bookclub style or alone.
-2. [Seminar Videos](#seminar-videos) recorded during the Summer 2019 Chaincode Residency.
-3. [Lightning Syllabus](#lightning-syllabus) a collection of resources grouped by subjects.
+2. [Seminar Videos](##seminar-videos) recorded during the Summer 2019 Chaincode Residency.
+3. [Lightning Syllabus](##lightning-syllabus) a collection of resources grouped by subjects.
 
-# Seminar Videos
+## Seminar Videos
 
 | Session                                 | Topic                      | Link |
 |-----------------------------------------|----------------------------|------|
@@ -42,7 +44,7 @@ Privacy | Gossip protocol and privacy/How much do watchtowers need to know?/ Min
 | 1.1 and the far future | Rendezvous Routing | [https://youtu.be/Ms2WwRzBdkM](https://youtu.be/Ms2WwRzBdkM) |
 | 1.1 and the far future | Dual funded channels | [https://youtu.be/5wQUMtgsnPs](https://youtu.be/5wQUMtgsnPs) |
 
-# Lightning Syllabus
+## Lightning Syllabus
 
 | Subjects                        | Topics  | Sub-topics    | Sources |
 |---------------------------------|---------|---------------|---------|
@@ -128,6 +130,6 @@ What is Lightning?|Lightning ≈ Bitcoin|Revisting tx malleability|[SF Bitcoin D
 |Implementations|geelightning|Incomplete implementation|[geelightning](https://gitlab.com/nblockchain/geelightning) in Rust |
 |Setting up a node||| [Bitcoin Lightning Network #1: Can I compile and run a node?](https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15), [Beginner’s Guide to ️Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md), [My Lightning Node setup with c-lightning](https://medium.com/coinmonks/my-lightning-node-setup-with-c-lightning-45bbb9993c0), [Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD](https://github.com/rootzoll/raspiblitz) |
 
-## Acknowledgements
+### Acknowledgements
 
 Special thanks to [Fabian Jahr](https://github.com/fjahr), [Christian Decker](https://github.com/cdecker), [Fabrice Drouin](https://github.com/sstone), [René Pickhardt](https://github.com/renepickhardt), and [Alex Bosworth](https://github.com/alexbosworth) for their help in putting together the above resources.
