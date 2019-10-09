@@ -5,6 +5,7 @@ While planning the [Chaincode Residency](https://residency.chaincode.com/), we p
 Lightning is still a nascent technology, and so we expect maintenance of this document to be an ongoing task. We could use your help. Please **consider opening a pull-request** to keep this document relevant.
 
 There are three portions to this curriculum:
+
 1. [Study Groups](https://github.com/chaincodelabs/study-groups#lightning) designed to provide bite-sized grouped subjects that you can either complete bookclub style or alone.
 2. [Seminar Videos](#seminar-videos) recorded during the Summer 2019 Chaincode Residency.
 3. [Lightning Syllabus](#lightning-syllabus) a collection of resources grouped by subjects.
