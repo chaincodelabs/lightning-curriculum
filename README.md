@@ -129,6 +129,22 @@ What is Lightning?|Lightning ≈ Bitcoin|Revisting tx malleability|[SF Bitcoin D
 |Implementations|DotNetLightning|Incomplete implementation|[Lightning network daemon with F#](https://github.com/joemphilips/DotNetLightning) |
 |Implementations|geelightning|Incomplete implementation|[geelightning](https://gitlab.com/nblockchain/geelightning) in Rust |
 |Setting up a node||| [Bitcoin Lightning Network #1: Can I compile and run a node?](https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15), [Beginner’s Guide to ️Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md), [My Lightning Node setup with c-lightning](https://medium.com/coinmonks/my-lightning-node-setup-with-c-lightning-45bbb9993c0), [Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD](https://github.com/rootzoll/raspiblitz) |
+|BOLTs|BOLT 1|Messaging|[The fascinating life of Lightning BOLT #1](https://twitter.com/rusty_twit/status/1166448340147421184) |
+|BOLTs|BOLT 2|Channels and HTLCs| [Opening and closing channels](https://twitter.com/rusty_twit/status/1168985274795343872), [HTLCs](https://twitter.com/rusty_twit/status/1171521859587674114) |
+|BOLTs|BOLT 3|Bitcoin Transactions|[Bitcoin Transactions](https://twitter.com/rusty_twit/status/1171884459001434112) |
+|BOLTs|BOLT 4|Onion Routing|[All things onion routing](https://twitter.com/rusty_twit/status/1174058046600777728) |
+|BOLTs|BOLT 5|Onchain|[Going onchain: the good, the bad, and the ugly](https://twitter.com/rusty_twit/status/1174421524024971264) |
+|BOLTs|BOLT 7|Gossip Network|[Gossip part 1](https://twitter.com/rusty_twit/status/1176594892459397120), [Gossip part 2](https://twitter.com/rusty_twit/status/1176958199078907906) |
+|BOLTs|BOLT 8|Transport| |
+|BOLTs|BOLT 9|LN Features| |
+|BOLTs|BOLT 10|DNS & Bootstrap| |
+|BOLTs|BOLT 11|Invoices & Payment Encoding| |
+
+## CVEs
+
+| Identifiers                        | Type  | Sources |
+|------------------------------------|-------|---------|
+|CVE-2019-12998 / CVE-2019-12999 / CVE-2019-13000|CVE Disclosure|[Full Disclosure](https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-September/002174.html), [Video Explanation](https://twitter.com/rusty_twit/status/1179131794538414080) |
 
 ### Acknowledgements
 
