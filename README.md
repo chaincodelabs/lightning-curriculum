@@ -1,48 +1,50 @@
-# What is this?
+# Lightning Network Curriculum
+
+## What Is This?
 
 While planning the [Chaincode Residency](https://residency.chaincode.com/), we put considerable effort into finding the best resources and creating a curriculum around Lightning protocol development.
 
 Lightning is still a nascent technology, and so we expect maintenance of this document to be an ongoing task. We could use your help. Please **consider opening a pull-request** to keep this document relevant.
 
 There are three portions to this curriculum:
+
 1. [Study Groups](https://github.com/chaincodelabs/study-groups#lightning) designed to provide bite-sized grouped subjects that you can either complete bookclub style or alone.
-2. [Seminar Videos](#seminar-videos) recorded during the Summer 2019 Chaincode Residency.
-3. [Lightning Syllabus](#lightning-syllabus) a collection of resources grouped by subjects.
+2. [Seminar Videos](##seminar-videos) recorded during the Summer 2019 Chaincode Residency.
+3. [Lightning Syllabus](##lightning-syllabus) a collection of resources grouped by subjects.
 
-
-# Seminar Videos
+## Seminar Videos
 
 | Session                                 | Topic                      | Link |
 |-----------------------------------------|----------------------------|------|
-| How pieces fit together | Overall picture | https://youtu.be/krux2v0jt4E |
-| How pieces fit together | Update | https://youtu.be/SoFlRCNdqDg |
-| How pieces fit together | Transfer | https://youtu.be/CGE8I8L7BAc |
-| How pieces fit together | Multihop | https://youtu.be/P7I-C0_sijg |
-| How pieces fit together | And the others that are worth mentioning but not exploring (base and transport) | https://youtu.be/wyri7cc83kQ |
-| Update layer | Trampoline Payments | https://youtu.be/1WmIjHrjFsg |
-| Update layer | Eltoo and the Far Future | https://youtu.be/3ZjymCOmn_A |
-| Onion Routing | Atomic multi-path payments (AMP) | https://youtu.be/Og4TGERPZMY |
-| Onion Routing | Keysend (formally known as spontaneous payments) | https://youtu.be/zaBY9_eEQWE |
-| Update layer - limitations | Fee management | https://youtu.be/r8S3iELg9_U |
-| Onion Routing | Deep Dive | https://youtu.be/D4kX0gR-H0Y |
-| Update layer - limitations | Incentive problems in the network | https://youtu.be/lByQUr7zPr0 |
-| Onion Routing- limitations | Routing failures | https://youtu.be/z5vEyvc2vrE |
-| Update layer | Gossip Protocol/Path Finding | https://youtu.be/MeEFUaRnMak |
-| Limitations | Payment UX | https://youtu.be/rVgAHMgMCzk |
-| Limitations | Limitations of lightweight clients | https://youtu.be/ULVItljEiFE |
-| Limitations | Running Lightning in Production | https://youtu.be/fhmeNWczeUg |
-| Limitations | Failure modes in action | https://github.com/sstone/ln-in-action|
-| | Submarine swaps/ Loops | https://youtu.be/qixhNBIHDyE |
-| Attack vectors | Attack vector intro | https://youtu.be/R5cSrftd8nc |
-Privacy | Gossip protocol and privacy/How much do watchtowers need to know?/ Minimizing what is broadcasted to the base layer |  https://gist.github.com/adamjonas/8da156886ffa414541eaa43c0c5074ca |
-| Privacy | Channel probing attack for channel balance | https://youtu.be/A7rp7bLbZoo, https://github.com/wbobeirne/channel-probing-attack|
-| 1.1 and the far future | Network Topology creation/maintenance | https://youtu.be/N7rlHCnaBf8 |
-| 1.1 and the far future | Splicing | https://youtu.be/ZzSveBMtUGI |
-| 1.1 and the far future | Multi-party channels/Channel factories | https://youtu.be/PUDWGH_MvmQ |
-| 1.1 and the far future | Rendezvous Routing | https://youtu.be/Ms2WwRzBdkM |
-| 1.1 and the far future | Dual funded channels | https://youtu.be/5wQUMtgsnPs |
+| How pieces fit together | Overall picture | [https://youtu.be/krux2v0jt4E](https://youtu.be/krux2v0jt4E) |
+| How pieces fit together | Update | [https://youtu.be/SoFlRCNdqDg](https://youtu.be/SoFlRCNdqDg) |
+| How pieces fit together | Transfer | [https://youtu.be/CGE8I8L7BAc](https://youtu.be/CGE8I8L7BAc) |
+| How pieces fit together | Multihop | [https://youtu.be/P7I-C0_sijg](https://youtu.be/P7I-C0_sijg) |
+| How pieces fit together | And the others that are worth mentioning but not exploring (base and transport) | [https://youtu.be/wyri7cc83kQ](https://youtu.be/wyri7cc83kQ) |
+| Update layer | Trampoline Payments | [https://youtu.be/1WmIjHrjFsg](https://youtu.be/1WmIjHrjFsg) |
+| Update layer | Eltoo and the Far Future | [https://youtu.be/3ZjymCOmn_A](https://youtu.be/3ZjymCOmn_A) |
+| Onion Routing | Atomic multi-path payments (AMP) | [https://youtu.be/Og4TGERPZMY](https://youtu.be/Og4TGERPZMY) |
+| Onion Routing | Keysend (formally known as spontaneous payments) | [https://youtu.be/zaBY9_eEQWE](https://youtu.be/zaBY9_eEQWE) |
+| Update layer - limitations | Fee management | [https://youtu.be/r8S3iELg9_U](https://youtu.be/r8S3iELg9_U) |
+| Onion Routing | Deep Dive | [https://youtu.be/D4kX0gR-H0Y](https://youtu.be/D4kX0gR-H0Y) |
+| Update layer - limitations | Incentive problems in the network | [https://youtu.be/lByQUr7zPr0](https://youtu.be/lByQUr7zPr0) |
+| Onion Routing- limitations | Routing failures | [https://youtu.be/z5vEyvc2vrE](https://youtu.be/z5vEyvc2vrE) |
+| Update layer | Gossip Protocol/Path Finding | [https://youtu.be/MeEFUaRnMak](https://youtu.be/MeEFUaRnMak) |
+| Limitations | Payment UX | [https://youtu.be/rVgAHMgMCzk](https://youtu.be/rVgAHMgMCzk) |
+| Limitations | Limitations of lightweight clients | [https://youtu.be/ULVItljEiFE](https://youtu.be/ULVItljEiFE) |
+| Limitations | Running Lightning in Production | [https://youtu.be/fhmeNWczeUg](https://youtu.be/fhmeNWczeUg) |
+| Limitations | Failure modes in action | [https://github.com/sstone/ln-in-action](https://github.com/sstone/ln-in-action) |
+| | Submarine swaps/ Loops | [https://youtu.be/qixhNBIHDyE](https://youtu.be/qixhNBIHDyE) |
+| Attack vectors | Attack vector intro | [https://youtu.be/R5cSrftd8nc](https://youtu.be/R5cSrftd8nc) |
+Privacy | Gossip protocol and privacy/How much do watchtowers need to know?/ Minimizing what is broadcasted to the base layer |  [https://gist.github.com/adamjonas/8da156886ffa414541eaa43c0c5074ca](https://gist.github.com/adamjonas/8da156886ffa414541eaa43c0c5074ca) |
+| Privacy | Channel probing attack for channel balance | [https://youtu.be/A7rp7bLbZoo](https://youtu.be/A7rp7bLbZoo), [https://github.com/wbobeirne/channel-probing-attack](https://github.com/wbobeirne/channel-probing-attack) |
+| 1.1 and the far future | Network Topology creation/maintenance | [https://youtu.be/N7rlHCnaBf8](https://youtu.be/N7rlHCnaBf8) |
+| 1.1 and the far future | Splicing | [https://youtu.be/ZzSveBMtUGI](https://youtu.be/ZzSveBMtUGI) |
+| 1.1 and the far future | Multi-party channels/Channel factories | [https://youtu.be/PUDWGH_MvmQ](https://youtu.be/PUDWGH_MvmQ) |
+| 1.1 and the far future | Rendezvous Routing | [https://youtu.be/Ms2WwRzBdkM](https://youtu.be/Ms2WwRzBdkM) |
+| 1.1 and the far future | Dual funded channels | [https://youtu.be/5wQUMtgsnPs](https://youtu.be/5wQUMtgsnPs) |
 
-# Lightning Syllabus
+## Lightning Syllabus
 
 | Subjects                        | Topics  | Sub-topics    | Sources |
 |---------------------------------|---------|---------------|---------|
@@ -128,7 +130,12 @@ What is Lightning?|Lightning ≈ Bitcoin|Revisting tx malleability|[SF Bitcoin D
 |Implementations|geelightning|Incomplete implementation|[geelightning](https://gitlab.com/nblockchain/geelightning) in Rust |
 |Setting up a node||| [Bitcoin Lightning Network #1: Can I compile and run a node?](https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15), [Beginner’s Guide to ️Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md), [My Lightning Node setup with c-lightning](https://medium.com/coinmonks/my-lightning-node-setup-with-c-lightning-45bbb9993c0), [Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD](https://github.com/rootzoll/raspiblitz) |
 
+## CVEs
 
-## Acknowledgements
+| Identifiers                        | Type  | Sources |
+|------------------------------------|-------|---------|
+|CVE-2019-12998 / CVE-2019-12999 / CVE-2019-13000|CVE Disclosure|[Full Disclosure](https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-September/002174.html), [Video Explanation](https://twitter.com/rusty_twit/status/1179131794538414080) |
+
+### Acknowledgements
 
 Special thanks to [Fabian Jahr](https://github.com/fjahr), [Christian Decker](https://github.com/cdecker), [Fabrice Drouin](https://github.com/sstone), [René Pickhardt](https://github.com/renepickhardt), and [Alex Bosworth](https://github.com/alexbosworth) for their help in putting together the above resources.
