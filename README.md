@@ -53,7 +53,6 @@ There are two portions to this curriculum:
 
 #### Payment Channel
 
-- [Payment Channel](https://wiki.ion.radar.tech/tech/lightning/payment-channel)
 - [Do the channel balances get publicly announced in real-time on Lightning Network?](https://bitcoin.stackexchange.com/questions/80130/in-lightning-network-is-the-balance-publicly-anounced-in-realtime)
 - [The open_channel Message](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#the-open_channel-message)
 - [open_channel Message Rationale](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#rationale)
@@ -71,12 +70,10 @@ There are two portions to this curriculum:
 - [Commitment Transaction - BOLT #3](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#commitment-transaction)
 - [Closing a Channel in Lighting Network](https://bitcoin.stackexchange.com/questions/80394/closing-a-channel-in-lightning-network)
 - [Closing Transaction](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#closing-transaction)
-- [Lightning Network ‘Penalty Scenario’ Works in Old State Channel Incident](https://bitsonline.com/lightning-network-hackers-busted/)
 - [Revoked Transaction Close Handling](https://github.com/lightningnetwork/lightning-rfc/blob/master/05-onchain.md#revoked-transaction-close-handling)
 - [Distinguishing mutual and unilateral channel closing in the Bitcoin blockchain](https://medium.com/coinmonks/distinguishing-mutual-and-unilateral-channel-closing-in-the-bitcoin-blockchain-ec2e0e7d71f4)
 - [Mutual Close Handling](https://github.com/lightningnetwork/lightning-rfc/blob/master/05-onchain.md#mutual-close-handling)
 - [Unilateral Close Handling: Local Commitment Transaction](https://github.com/lightningnetwork/lightning-rfc/blob/master/05-onchain.md#unilateral-close-handling-local)
-- [BOLT #2: Peer Protocol for Channel Management](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#closing-negotiation)
 
 #### HTLCs
 
@@ -105,10 +102,8 @@ There are two portions to this curriculum:
 ### Multihop
 
 #### Sphinx
-- [Sphinx Packet](https://wiki.ion.radar.tech/tech/lightning/sphinx-packet)
 - [Using Sphinx to Improve Onion Routing Circuit Construction (short paper)⋆](https://www.cypherpunks.ca/~iang/pubs/SphinxOR.pdf)
 - [Sphinx: A Compact and Provably Secure Mix Format](http://diyhpl.us/~bryan/papers2/bitcoin/Sphinx:%20A%20compact%20and%20provably%20secure%20mix%20format.pdf)
-- [Security Analysis of the Lightning Network](https://cyber.stanford.edu/sites/g/files/sbiybj9936/f/olaoluwaosuntokun.pdf)
 
 #### Onion Routing
 - [Onion routing seminar video](https://youtu.be/D4kX0gR-H0Y)
@@ -119,7 +114,6 @@ There are two portions to this curriculum:
 - [BOLT #2: Peer Protocol for Channel Management](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#the-open_channel_message)
 - [The Lightning Network (Part 2) – Routing Fee Economics](https://blog.bitmex.com/the-lightning-network-part-2-routing-fee-economics/)
 - [cltv_expiry_delta Selection](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#cltv_expiry_delta-selection)
-- [Exploring Lightning Network Routing](https://blog.lightning.engineering/posts/2018/05/30/routing.html)
 - [Keysend seminar video](https://youtu.be/zaBY9_eEQWE)
 
 ### Transport Layer
@@ -190,7 +184,6 @@ There are two portions to this curriculum:
 
 ### Security/Attack vectors
 - [Attack vector intro seminar video](https://youtu.be/R5cSrftd8nc)
-- [State of the Crypto: Lightning Network DDoS’d](https://bitsonline.com/state-of-crypto/)
 - [Payment channel congestion via spam-attack](https://github.com/lightningnetwork/lightning-rfc/issues/182)
 
 ### Considerations
@@ -200,7 +193,6 @@ There are two portions to this curriculum:
 - [Lightning network topology Considerations](https://diyhpl.us/wiki/transcripts/scalingbitcoin/tel-aviv-2019/edgedevplusplus/lightning-network-topology/)
 - [Rebalancing in the lightning network: Analysis and implications](https://diyhpl.us/wiki/transcripts/scalingbitcoin/tokyo-2018/rebalancing-lightning/)
 - [Cyclic Superhubs as Solution Towards Reasonable Lightning Network Topology](https://zmnscpxj.github.io/offchain/cyclicsuperhubs.html)
-- [Exploring Neutrino](https://vimeo.com/316626387)
 - [Neutrino: The Lighter Side of Lightning](https://blog.lightning.engineering/posts/2018/10/17/neutrino.html )
 - [What is the status of the Lightning Network?](https://www.reddit.com/r/Bitcoin/comments/714x2k/what_is_the_status_of_the_lightning_network/dn8v3dg/)
 
@@ -216,7 +208,7 @@ There are two portions to this curriculum:
 
 ### Setting up a node
 - [Bitcoin Lightning Network #1: Can I compile and run a node?](https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15)
-- [Beginner’s Guide to ️Lightning️ on a Raspberry Pi](https://github.com/Stadicus/guides/blob/master/raspibolt/README.md)
+- [Beginner’s Guide to Lightning️ on a Raspberry Pi](https://raspibolt.org/)
 - [My Lightning Node setup with c-lightning](https://medium.com/coinmonks/my-lightning-node-setup-with-c-lightning-45bbb9993c0)
 - [Fastest and cheapest way to get your own Lightning Node running - on a RaspberryPi with a nice LCD](https://github.com/rootzoll/raspiblitz)
 
