@@ -56,10 +56,10 @@ There are two portions to this curriculum:
 - [Payment Channel](https://wiki.ion.radar.tech/tech/lightning/payment-channel)
 - [Do the channel balances get publicly announced in real-time on Lightning Network?](https://bitcoin.stackexchange.com/questions/80130/in-lightning-network-is-the-balance-publicly-anounced-in-realtime)
 - [The open_channel Message](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#the-open_channel-message)
+- [open_channel Message Rationale](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#rationale)
 - [Exploring Lightning Network Routing](https://blog.lightning.engineering/posts/2018/05/30/routing.html)
 - [Imbalance measure and proactive channel rebalancing video](https://youtu.be/KQX_cSenxNI)
 - [Imbalance measure and proactive channel rebalancing algorithm paper](https://arxiv.org/abs/1912.09555)
-- [Rationale](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#rationale)
 
 #### Transactions
 
@@ -67,8 +67,8 @@ There are two portions to this curriculum:
 - [Funding Transactions as a Generalized Design Pattern for Offchain Protocols](https://zmnscpxj.github.io/offchain/generalized.html)
 - [Funding Transaction Output](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#funding-transaction-output)
 - [The funding_created Message](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#the-funding_created-message)
-- [Commitment transactions](https://en.wikipedia.org/wiki/Lightning_Network#Commitment_transactions)
-- [Commitment Transaction](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#commitment-transaction)
+- [Commitment transactions - wiki](https://en.wikipedia.org/wiki/Lightning_Network#Commitment_transactions)
+- [Commitment Transaction - BOLT #3](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#commitment-transaction)
 - [Closing a Channel in Lighting Network](https://bitcoin.stackexchange.com/questions/80394/closing-a-channel-in-lightning-network)
 - [Closing Transaction](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#closing-transaction)
 - [Lightning Network ‘Penalty Scenario’ Works in Old State Channel Incident](https://bitsonline.com/lightning-network-hackers-busted/)
@@ -84,13 +84,12 @@ There are two portions to this curriculum:
 - [Lightning Networks Part II: Hashed Timelock Contracts (HTLCs)](https://rusty.ozlabs.org/?p=462)
 - [HTLC implementation Bitcoin Core](https://github.com/bitcoin/bitcoin/pull/7601)
 - [Bitcoin’s Time Locks](https://medium.com/summa-technology/bitcoins-time-locks-27e0c362d7a1)
-- [Timelock](https://en.bitcoin.it/wiki/Timelock)
+- [Timelock - wiki](https://en.bitcoin.it/wiki/Timelock)
 - [Bitcoin Timelocks in a nutshell](https://medium.com/@RobinHung/bitcoin-timelocks-in-a-nutshell-4c95aafc7a59)
 - [Lightning Networks Part I: Revocable Transactions](https://rusty.ozlabs.org/?p=450)
 - [BIP 65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki)
 - [What is a hash pre-image as it is used for the breach remedy?](https://bitcoin.stackexchange.com/questions/48053/what-is-a-hash-pre-image-as-it-is-used-for-the-breach-remedy)
 - [Offered HTLC Outputs](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#offered-htlc-outputs)
-- [Key Derivation](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#key-derivation)
 - [Key Derivation](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#key-derivation)
 - [Removing an HTLC: update_fulfill_htlc, update_fail_htlc, and update_fail_malformed_htlc](https://github.com/lightningnetwork/lightning-rfc/blob/master/02-peer-protocol.md#removing-an-htlc-update_fulfill_htlc-update_fail_htlc-and-update_fail_malformed_htlc)
 
@@ -132,8 +131,8 @@ There are two portions to this curriculum:
 ### Atomic Swaps
 - [What are Atomic Swaps? A Beginner’s Guide](https://coincentral.com/what-are-atomic-swaps-a-beginners-guide/)
 - [Atomic Swaps: How the Lightning Network Extends to Altcoins](https://bitcoinmagazine.com/articles/atomic-swaps-how-the-lightning-network-extends-to-altcoins-1484157052/)
-- [Atomic Swaps](https://bitcointechtalk.com/atomic-swaps-d6ca26b680fe)
-- [Atomic Swaps on the Lightning Network](https://www.youtube.com/watch?v=iuNopQm1Adk)
+- [Atomic Swaps - Jimmy Song](https://bitcointechtalk.com/atomic-swaps-d6ca26b680fe)
+- [Atomic Swaps on the Lightning Network - video](https://www.youtube.com/watch?v=iuNopQm1Adk)
 - [Submarine swaps seminar video (first 25:30)](https://youtu.be/qixhNBIHDyE)
 - [Onboarding the Masses: Submarine Swaps](https://medium.com/chainrift-research/onboarding-the-masses-submarine-swaps-b615b6d80093)
 - [Submarine Swaps on the Lightning Network](https://www.youtube.com/watch?time_continue=1&v=ASkyu0w_8Q8)
